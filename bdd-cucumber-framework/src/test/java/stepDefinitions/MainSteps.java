@@ -54,4 +54,25 @@ public void user_login_into_application_with1(List<String> dataTable) {
 
 
 
+@Given("Open the URL of the application")
+    public void open_the_url_of_the_application() {
+    // Write code here that turns the phrase above into concrete actions
+    System.out.println("**************************");
+    System.out.println("Open the URL of the application");
+    }
+
+@When("launch the Browser from configuration file")
+    public void launch_the_browser_from_configuration_file() {
+    // Write code here that turns the phrase above into concrete actions
+    System.out.println("Launch the Browser from configuration file");
+
+}
+
+@Then("Hit the URL of banking site")
+    public void hit_the_url_of_banking_site() {
+    // Write code here that turns the phrase above into concrete actions
+    System.out.println("Hit the URL of banking site");
+
+
+}
 }

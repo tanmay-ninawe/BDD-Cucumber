@@ -1,6 +1,15 @@
 @tag @RegressionTest
 Feature: Application Login
+
+# background will be executed before each scenario. It is used to avoid code duplication.
+# This will lies within this Feature file only. It will not be executed for other feature files.
+Background:
+    Given Open the URL of the application
+    When launch the Browser from configuration file
+    Then Hit the URL of banking site
     
+
+
 Scenario: Admin Page Login 
 
     Given User is on the NetBanking Page
